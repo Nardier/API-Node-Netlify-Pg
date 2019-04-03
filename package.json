@@ -1,0 +1,18 @@
+{
+  "name": "livraria_api",
+  "version": "1.0.0",
+  "description": "Api para servir uma aplicação de uma livraria.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nardier",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2",
+    "restify": "^8.2.0",
+    "sequelize": "^5.2.9",
+    "sqlite3": "^4.0.6"
+  }
+}
